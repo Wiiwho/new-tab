@@ -55,8 +55,14 @@ const ShortcutContainer = styled.div`
   padding-left: 15px;
   padding-right: 15px;
   cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s ease;
   :hover {
     background: #aaa;
+  }
+  :active {
+    border-radius: 12px;
+    transform: scale(0.925);
   }
 `;
 
